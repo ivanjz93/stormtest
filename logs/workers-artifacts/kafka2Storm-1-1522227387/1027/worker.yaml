@@ -1,0 +1,4 @@
+worker-id: 999c7ba1-b120-410f-af5f-ea8d5093b7a9
+logs.users: []
+logs.groups: []
+topology.submitter.user: ctbri
