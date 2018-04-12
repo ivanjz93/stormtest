@@ -26,7 +26,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>org.dan.wordcount.WordCountMain</mainClass>
+                            <mainClass>org.dan.order.OrderWriter</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

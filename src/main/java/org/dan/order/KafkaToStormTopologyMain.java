@@ -1,4 +1,4 @@
-package org.dan.busidata;
+package org.dan.order;
 
 
 import org.apache.storm.Config;
@@ -8,12 +8,10 @@ import org.apache.storm.kafka.*;
 import org.apache.storm.spout.SchemeAsMultiScheme;
 import org.apache.storm.topology.TopologyBuilder;
 
-import java.util.UUID;
-
 public class KafkaToStormTopologyMain {
     private static String zkConnString = "nn1-ha:2181,nn2:2181,nn2-ha:2181";
     //private static String zkConnString = "nn1-ha:2181";
-    private static String topicName = "test12345";
+    private static String topicName = "order";
 
     public static void main(String[] args) throws Exception {
         BrokerHosts hosts = new ZkHosts(zkConnString);

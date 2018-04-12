@@ -1,4 +1,4 @@
-package org.dan.busidata;
+package org.dan.order;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
